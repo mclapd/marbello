@@ -35,8 +35,8 @@ const Header = () => {
         <Link
           // to="home"
           href={"/"}
-          smooth={desktopMode}
-          spy={true}
+          smooth={typeof smooth === "boolean" ? smooth.toString() : undefined}
+          spy={typeof spy === "boolean" ? spy.toString() : undefined}
           className="cursor-pointer"
         >
           <Image src={logo} width={100} height={100} alt="image" />
