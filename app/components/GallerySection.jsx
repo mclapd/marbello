@@ -1,0 +1,77 @@
+"use client";
+
+import { useState } from "react";
+import { galleryData } from "../data";
+import Lightbox from "yet-another-react-lightbox";
+import { motion } from "framer-motion";
+import { fadeIn } from "../effects/variants";
+import { Gallery } from "react-grid-gallery";
+import "yet-another-react-lightbox/styles.css";
+
+const slides = galleryData.images.map(({ original, width, height }) => ({
+  src: original,
+  width,
+  height,
+}));
+
+const GallerySection = () => {
+  const [index, setIndex] = useState(0);
+  const [isOpen, setIsopen] = useState(false);
+  const { title, btnText, btnIcon, images } = galleryData;
+
+  return (
+    <section
+      id="gallery"
+      className="bg-[url('/images/header/marbello_bg.png')] bg-repeat section relative mt-[40px] lg:mt-0"
+    >
+      <div className="container mx-auto">
+        <motion.h2
+          variants={fadeIn("up")}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amout: 0.6 }}
+          className="h2 max-w-[370px] lg:mb-20"
+        >
+          {title}
+        </motion.h2>
+      </div>
+      <motion.div
+        variants={fadeIn("up")}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amout: 0.2 }}
+        className="mb-8 lg:mb-20"
+      >
+        <Gallery
+          images={images}
+          onClick={(index) => {
+            setIsopen(true);
+            setIndex(index);
+          }}
+        />
+        {isOpen && (
+          <Lightbox
+            slides={slides}
+            styles={{ container: { backgroundColor: "rgba(0,0,0,.9" } }}
+            open={index >= 0}
+            index={index}
+            close={() => setIsopen(false)}
+          />
+        )}
+      </motion.div>
+      <motion.div
+        variants={fadeIn("up")}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amout: 0.2 }}
+        className="flex justify-center"
+      >
+        <button className="btn btn-lg btn-dark">
+          {btnText} <div className="text-xl">{btnIcon}</div>
+        </button>
+      </motion.div>
+    </section>
+  );
+};
+
+export default GallerySection;
