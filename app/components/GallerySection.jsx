@@ -59,7 +59,7 @@ const GallerySection = () => {
           />
         )}
       </motion.div>
-      <motion.div
+      {/* <motion.div
         variants={fadeIn("up")}
         initial="hidden"
         whileInView={"show"}
@@ -69,7 +69,7 @@ const GallerySection = () => {
         <button className="btn btn-lg btn-dark">
           {btnText} <div className="text-xl">{btnIcon}</div>
         </button>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 };

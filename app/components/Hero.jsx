@@ -3,6 +3,7 @@
 import { heroData } from "../data";
 import { motion } from "framer-motion";
 import { fadeIn } from "../effects/variants";
+import { useRouter } from "next/navigation";
 
 const container = {
   hidden: {},
@@ -16,6 +17,7 @@ const container = {
 
 const Hero = () => {
   const { title, subtitle, btnText, btnIcon } = heroData;
+  const router = useRouter();
 
   return (
     <section
@@ -39,7 +41,10 @@ const Hero = () => {
             {subtitle}
           </motion.p>
           <motion.div variants={fadeIn("down")} className="">
-            <button className="btn btn-sm lg:btn-lg btn-outline mx-auto lg:mx-0">
+            <button
+              onClick={() => router.push("/UnderConstruction")}
+              className="btn btn-sm lg:btn-lg btn-outline mx-auto lg:mx-0"
+            >
               {btnText} <div className="text-xl">{btnIcon}</div>
             </button>
           </motion.div>
