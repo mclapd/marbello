@@ -24,7 +24,7 @@ const Skills = () => {
         if (tileSupplySelection < 95) {
           setTileSupplySelection(tileSupplySelection + 1);
         }
-        if (designConsultation < 80) {
+        if (designConsultation < 94) {
           setDesignConsultation(designConsultation + 1);
         }
         if (professionalInstallation < 98) {

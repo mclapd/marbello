@@ -95,7 +95,7 @@ const Footer = () => {
             </div>
             <div className="leading-relaxed mb-9 text-[#dbdbdb]">
               {newsletter.subtitle}{" "}
-              <div className="hidden xl:flex">
+              <div className="xl:flex">
                 <Socials />
               </div>
             </div>
