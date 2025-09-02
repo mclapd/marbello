@@ -21,16 +21,16 @@ const Skills = () => {
   useEffect(() => {
     if (inView) {
       setTimeout(() => {
-        if (tileSupplySelection < 80) {
+        if (tileSupplySelection < 95) {
           setTileSupplySelection(tileSupplySelection + 1);
         }
         if (designConsultation < 80) {
           setDesignConsultation(designConsultation + 1);
         }
-        if (professionalInstallation < 70) {
+        if (professionalInstallation < 98) {
           setProfessionalInstallation(professionalInstallation + 1);
         }
-        if (commercialResidentialProjects < 60) {
+        if (commercialResidentialProjects < 97) {
           setCommercialResidentialProjects(commercialResidentialProjects + 1);
         }
       }, 50);
