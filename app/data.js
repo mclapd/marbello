@@ -39,7 +39,7 @@ export const navData = {
 export const socialData = [
   { href: "/", icon: <GrFacebookOption /> },
   { href: "/", icon: <IoLogoInstagram /> },
-  { href: "/", icon: <IoLogoPinterest /> },
+  // { href: "/", icon: <IoLogoPinterest /> },
   { href: "/", icon: <IoLogoTwitter /> },
   { href: "/", icon: <IoLogoYoutube /> },
 ];
