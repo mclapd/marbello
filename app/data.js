@@ -168,36 +168,36 @@ export const contactData = {
       },
       phone: {
         icon: <FaPhoneAlt />,
-        number: "+61 2 4930 4943",
+        number: "02 4927 5248",
       },
       email: {
         icon: <FaEnvelope />,
-        address: "info@marbello.com.au",
+        address: "sales@marbello.com.au",
       },
       link: "Get Directions",
       googleMapUrl:
         "https://www.google.com/maps/place/148+Charlestown+Rd,+Kotara+NSW",
     },
-    // {
-    //   title: "Maitland Showroom",
-    //   subtitle:
-    //     "Visit our Kotara showroom to explore our wide range of premium tiles and speak with our team about your next project.",
-    //   address: {
-    //     icon: <FaMapMarkerAlt />,
-    //     name: "1630 Elm Drive, New York City",
-    //   },
-    //   phone: {
-    //     icon: <FaPhoneAlt />,
-    //     number: "+02 1234 5678",
-    //   },
-    //   email: {
-    //     icon: <FaEnvelope />,
-    //     address: "info@marbello.com.au",
-    //   },
-    //   link: "Get Directions",
-    //   googleMapUrl:
-    //     "https://www.google.com/maps/place/148+Charlestown+Rd,+Kotara+NSW",
-    // },
+    {
+      title: "Design & Installation",
+      subtitle:
+        "From concept to completion, Marbello provides end-to-end tile solutions. Our expert team works with you on design, supply, and professional installation to bring your vision to life.",
+      address: {
+        icon: <FaMapMarkerAlt />,
+        name: "Servicing Newcastle, Maitland & the Hunter Region",
+      },
+      phone: {
+        icon: <FaPhoneAlt />,
+        number: "02 4927 5248",
+      },
+      email: {
+        icon: <FaEnvelope />,
+        address: "estimator@marbello.com.au",
+      },
+      link: "Get Directions",
+      googleMapUrl:
+        "https://www.google.com/maps/place/148+Charlestown+Rd,+Kotara+NSW",
+    },
   ],
   form: {
     name: "Write your name here",
@@ -218,11 +218,12 @@ export const footerData = {
     },
     phone: {
       icon: <FaPhoneAlt />,
-      number: "+61 2 4930 4943",
+      number: "02 4927 5248",
     },
     email: {
       icon: <FaEnvelope />,
-      address: "info@marbello.com.au",
+      saleAddress: "sales@marbello.com.au",
+      quoteAddress: "estimator@marbello.com.au",
     },
   },
   // links: {

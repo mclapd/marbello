@@ -48,7 +48,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-x-[10px]">
                 <div>{about.email.icon}</div>
-                <div>{about.email.address}</div>
+                <div>{about.email.saleAddress}</div>
+              </div>
+              <div className="flex items-center gap-x-[10px]">
+                <div>{about.email.icon}</div>
+                <div>{about.email.quoteAddress}</div>
               </div>
             </div>
           </motion.div>
