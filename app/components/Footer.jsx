@@ -3,6 +3,7 @@
 import { footerData } from "../data";
 import { motion } from "framer-motion";
 import { fadeIn } from "../effects/variants";
+import Socials from "./Socials";
 
 const StaggerContainer = {
   hidden: {},
@@ -88,14 +89,17 @@ const Footer = () => {
               })}
             </ul>
           </motion.div>
-          {/* <motion.div variants={fadeIn("up")} className="flex-1">
+          <motion.div variants={fadeIn("up")} className="flex-1">
             <div className="font-primary text-xl uppercase tracking-[0.08em] mb-6">
               {newsletter.title}
             </div>
             <div className="leading-relaxed mb-9 text-[#dbdbdb]">
-              {newsletter.subtitle}
+              {newsletter.subtitle}{" "}
+              <div className="hidden xl:flex">
+                <Socials />
+              </div>
             </div>
-            <form className="flex justify-between items-start border-b border-[#b6b6b6]">
+            {/* <form className="flex justify-between items-start border-b border-[#b6b6b6]">
               <input
                 className="outline-none placeholder:text-base italic placeholder:capitalize bg-transparent pb-2"
                 placeholder={newsletter.form.placeholder}
@@ -104,8 +108,8 @@ const Footer = () => {
               <button className="text-2xl cursor-pointer" type="submit">
                 {newsletter.form.icon}
               </button>
-            </form>
-          </motion.div> */}
+            </form> */}
+          </motion.div>
         </motion.div>
       </div>
     </footer>

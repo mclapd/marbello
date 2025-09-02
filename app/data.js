@@ -55,7 +55,7 @@ export const heroData = {
 export const aboutData = {
   title: "Our Story:",
   subtitle1:
-    "At Marbello, tiles are more than just surfaces — they are the foundation of timeless spaces. From classic elegance to modern sophistication, we curate a wide range of tiles that bring character and beauty to every project.",
+    "At Marbello, tiles are more than just surfaces; they are the foundation of timeless spaces. From classic elegance to modern sophistication, we curate a wide range of tiles that bring character and beauty to every project.",
   subtitle2:
     "We go beyond simple tile sales. From selection and design advice, to supply and professional installation, Marbello covers every aspect of your tile journey. Whether it’s a home renovation, a commercial project, or a bespoke design, our team is dedicated to delivering quality, style, and precision at every step.",
   btnText: "Learn more",
@@ -119,7 +119,7 @@ export const galleryData = {
 };
 
 export const interviewData = {
-  title: "“Great tiles don’t just cover a surface — they transform a space.”",
+  title: "“Great tiles don’t just cover a surface; they transform a space.”",
   btnText: "Watch it now",
   btnIcon: <FaPlay />,
 };
@@ -135,7 +135,7 @@ export const testimonialData = [
   {
     quoteImg: "/images/testimonial/quote.svg",
     message:
-      "Marbello made the whole process easy — from selecting high-quality tiles to professional installation. Their attention to detail and craftsmanship is outstanding. I couldn’t be happier with how our new space turned out.",
+      "Marbello made the whole process easy; from selecting high-quality tiles to professional installation. Their attention to detail and craftsmanship is outstanding. I couldn’t be happier with how our new space turned out.",
     name: "Douglas Hane",
     occupation: "Interior Designer",
   },
@@ -149,7 +149,7 @@ export const testimonialData = [
   {
     quoteImg: "/images/testimonial/quote.svg",
     message:
-      "We renovated our café with Marbello tiles, and the difference is incredible. The team understood the look we wanted and executed it perfectly. Customers often compliment the design — it’s truly elevated our business.",
+      "We renovated our café with Marbello tiles, and the difference is incredible. The team understood the look we wanted and executed it perfectly. Customers often compliment the design; it’s truly elevated our business.",
     name: "Sophie Lee",
     occupation: "Café Owner",
   },
@@ -245,9 +245,9 @@ export const footerData = {
     ],
   },
   newsletter: {
-    title: "Newsletter",
+    title: "Experience Marbello Beyond the Surface",
     subtitle:
-      "Elit duis porttitor massa tellus nun in velit arcu posuere integer.",
+      "At Marbello, we believe that true elegance extends beyond our tiles; it lives in the stories they create. Through our curated social media channels, we share exclusive previews of new collections, design inspirations, and installation showcases from around the world. Join us in a space where craftsmanship meets innovation, and discover how Marbello continues to redefine timeless design.",
     form: {
       placeholder: "Your email address",
       icon: <FiSend />,
