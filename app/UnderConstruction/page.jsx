@@ -1,6 +1,6 @@
 const UnderConstruction = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-center">
+    <div className="flex flex-col items-center justify-center min-h-screen text-center bg-[url('/images/header/marbello_bg.png')] bg-repeat">
       <h1 className="text-2xl font-bold">🚧 Under Construction 🚧</h1>
       <p className="mt-2 text-gray-600">
         This page is currently under construction.
