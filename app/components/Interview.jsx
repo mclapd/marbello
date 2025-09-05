@@ -5,10 +5,12 @@ import ModalVideo from "react-modal-video";
 import { fadeIn } from "../effects/variants";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 const Interview = () => {
   const { title, btnText, btnIcon } = interviewData;
   const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
 
   return (
     <motion.section
@@ -29,7 +31,8 @@ const Interview = () => {
             </motion.h3>
             <div>
               <div
-                onClick={() => setIsOpen(true)}
+                // onClick={() => setIsOpen(true)}
+                onClick={() => router.push("/UnderConstruction")}
                 className="flex text-white items-center gap-x-5 cursor-pointer hover:opacity-80 transition"
               >
                 <div className="w-[70px] h-[70px] lg:w-[91px] lg:h-[91px] border border-white/40 rounded-full text-dark p-[5px] lg:p-[8px]">
