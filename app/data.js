@@ -238,8 +238,8 @@ export const footerData = {
   program: {
     title: "Working hours",
     items: [
-      { name: "Mon – Fri / 9:00am – 5:30pm" },
-      { name: "Saturday / 10:00am – 4:00pm" },
+      { name: "Mon – Fri / 9:00am – 5:00pm" },
+      { name: "Saturday / 9:00am – 4:00pm" },
       { name: "Sunday / Closed" },
       { name: "Public Holidays / Closed" },
     ],
