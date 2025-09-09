@@ -129,7 +129,7 @@ export const testimonialData = [
     quoteImg: "/images/testimonial/quote.svg",
     message:
       "From the moment I walked into Marbello, I felt confident about my renovation. The team helped me choose the perfect tiles and guided me with design ideas. The installation was seamless, and the final result completely transformed my home.",
-    name: "Jack Geoffrey",
+    name: "Chris Kim",
     occupation: "Homeowner",
   },
   {
