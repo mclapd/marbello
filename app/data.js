@@ -37,8 +37,14 @@ export const navData = {
 };
 
 export const socialData = [
-  { href: "/", icon: <GrFacebookOption /> },
-  { href: "/", icon: <IoLogoInstagram /> },
+  {
+    href: "https://www.facebook.com/share/1CRzRv8Jxd/?mibextid=wwXIfr",
+    icon: <GrFacebookOption />,
+  },
+  {
+    href: "https://www.instagram.com/marbello.tiles?igsh=MWowcnU1dThiMnF5ZQ==",
+    icon: <IoLogoInstagram />,
+  },
   // { href: "/", icon: <IoLogoPinterest /> },
   { href: "/", icon: <IoLogoTwitter /> },
   { href: "/", icon: <IoLogoYoutube /> },
