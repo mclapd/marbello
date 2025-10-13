@@ -28,6 +28,7 @@ export const headerData = {
 export const navData = {
   items: [
     { href: "/", name: "Home" },
+    { href: "/UnderConstruction", name: "Our Tiles" },
     { href: "#about", name: "About" },
     { href: "#gallery", name: "Project Showcase" },
     // { href: "#testimonials", name: "Testimonials" },
